@@ -102,3 +102,36 @@ h2 {
   width: 100%;
   border-radius: 10px;
 }
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box h1 {
+  color: red;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: darkred;
+}
