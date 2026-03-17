@@ -55,15 +55,15 @@ h2 {
   display: flex;
   align-items: center;
   background-color: #1e293b;
-  padding: 10px;
-  border-radius: 10px;
-  width: 90%;
-  margin: 20px auto;
+  padding: 15px 20px;   /* bigger padding */
+  border-radius: 15px;
+  width: 95%;           /* more width */
+  max-width: 600px;     /* clean limit */
+  margin: 25px auto;
 }
 
 .search-icon {
-  margin-right: 10px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #search {
